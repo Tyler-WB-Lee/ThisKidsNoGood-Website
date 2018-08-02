@@ -1,0 +1,57 @@
+* {
+    border: dashed rgba(1, 1, 1, 0.5)1px;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav {
+    display: fixed;
+    
+} 
+
+nav li {
+    display: inline;
+}
+
+h1 {
+    font-family: "permanent marker", monospace;
+    text-align: center;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.responsive {
+    max-width: 99%; /* change when global selector is removed */
+    display: block;
+    height: auto;
+}
+
+/* sub button wont display, does it need properties */
+
+/*.g-ytsubscribe {
+    width: 100%;
+    height: auto;
+} */
+
+
+#youtube-subscribe {
+    display: inline-block;
+    width: 100%;
+    height: 500px; /* change to auto after adding embeded player, and subscribe button */
+}
+
+#youtube {
+    float: left;
+    width: 45%;
+    height: auto;
+}
+#subscribe {
+    float: left;
+    width: 45%;
+    height: auto;
+}
+
+#headshot {
+    
+}
