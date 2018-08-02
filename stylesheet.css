@@ -5,8 +5,7 @@
 }
 
 nav {
-    display: fixed;
-    
+    display: fixed; 
 } 
 
 nav li {
@@ -51,7 +50,7 @@ h1 {
     width: 45%;
     height: auto;
 }
-
+/* headshot placeholder */
 #headshot {
-    
+
 }
