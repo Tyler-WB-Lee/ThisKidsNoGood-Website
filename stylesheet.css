@@ -1,11 +1,10 @@
 * {
     border: dashed rgba(1, 1, 1, 0.5)1px;
-    padding: 5px;
-    margin: 5px;
 }
 
 nav {
     display: fixed; 
+    background: lightblue;
 } 
 
 nav li {
@@ -21,7 +20,7 @@ h1 {
 }
 
 .responsive {
-    max-width: 99%; /* change when global selector is removed */
+    max-width: 100%; 
     display: block;
     height: auto;
 }
@@ -35,22 +34,35 @@ h1 {
 
 
 #youtube-subscribe {
-    display: inline-block;
+    display: flex;
     width: 100%;
     height: 500px; /* change to auto after adding embeded player, and subscribe button */
 }
 
 #youtube {
-    float: left;
-    width: 45%;
+    background: peru;
+    width: 50%;
     height: auto;
 }
 #subscribe {
-    float: left;
-    width: 45%;
+    background: royalblue;
+    width: 50%;
     height: auto;
 }
-/* #headshot placeholder 
 
+#form-headshot {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+}
 
-*/
+#email-list {
+    width: 50%;
+    height: auto;
+}
+
+#headshot {
+    width: 20%;
+    height: auto;
+}

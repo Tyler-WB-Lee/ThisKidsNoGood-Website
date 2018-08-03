@@ -10,7 +10,7 @@
     <head>
         <title>ThisKidsNoGood</title>
     </head>
-    <body>body
+    <body>
         <nav id="navbar">
             <ul>
                 <li><a href="#"><img src="#" alt="TKNG logo"></a></li>
@@ -27,28 +27,35 @@
         </div>
 
         <div id="youtube-subscribe">
-            <div id="youtube">youtube player
-                <!--<div id="youtube-player"> youtube player
-                 <iframe id="ytplayer" type="text/html" width="720" height="405"
+            <div id="youtube">
+                <div id="youtube-player"> 
+                 <!--<iframe id="ytplayer" type="text/html" width="720" height="405"
                  src="https://www.youtube.com/embed/RKKWmCtZF8U"
                  frameborder="0" allowfullscreen></iframe>-->
+                </div>
             </div>
-            
-            <div id="subscribe">subscribe button
-                <!-- <script src="https://apis.google.com/js/platform.js"></script>
-                <div class="g-ytsubscribe" data-channelid="UCEOK3xJq_87dXP9pYKrYc4w" data-layout="full" data-count="default"></div>-->
-            </div>
-        </div>
+
+            <div id="subscribe">
+            <!--Embeded button does not show up-->
+                <script src="https://apis.google.com/js/platform.js"></script>
+                <div class="g-ytsubscribe" data-channelid="UCEOK3xJq_87dXP9pYKrYc4w" data-layout="full" data-count="default"></div>
+            </div> 
         </div>   
-            <div id="email-list"> Email List
-            <form>
-                <input type="text" name="first name" placeholder="First Name">
-                <input type="text" name="last name" placeholder="Last Name">
-                <input type="text" name="email address" placeholder="Email">
-                <input type="checkbox" name="agree">Yes! Get me on that mailing list!
-                <input type="submit">
-            </form>
+
+        <div id="form-headshot">
+            <div id="email-list">
+                <form>
+                    <input type="text" name="first name" placeholder="First Name">
+                    <input type="text" name="last name" placeholder="Last Name">
+                    <input type="text" name="email address" placeholder="Email">
+                    <input type="checkbox" name="agree">Yes! Get me on that mailing list!
+                    <input type="submit">
+                </form>
+            </div>
+            <div id="headshot">
+                <img src="Imgs/tkng-headshot.jpg" alt="ThisKidsNoGood Headshot" class="responsive">
+            </div>
         </div>
-        <div id="headshot"></div>
+
     </body>
 </html>
